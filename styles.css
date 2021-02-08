@@ -1,5 +1,5 @@
 .profile-box {
-    border: aqua 2px solid;
+    border: #00ffff 2px solid;
     border-radius: 20px;
     display: flex;
     padding: 20px;
@@ -7,4 +7,8 @@
 
 .profile-description {
     padding: 20px;
+}
+
+.profile-image {
+    width: 460px;
 }
