@@ -1,0 +1,5 @@
+.profile-box {
+    border: aqua 2px solid;
+    border-radius: 20px;
+    display: flex;
+}
