@@ -9,8 +9,34 @@
 <body>
     <div class="nav-bar">
         <a class="active" href="index.html">Home</a>
-        <a href="profiles.html">Meet the plushies</a></li>
-        <a href="merch.html">Shop</a></li>
+        <a href="profiles.html">Meet the plushies</a>
+        <div class="dropdown-content">
+            <a href="#">Link 1</a>
+            <a href="#">Link 2</a>
+            <a href="#">Link 3</a>
+        </div>
+        <a href="merch.html">Shop</a>
+    </div>
+
+    <div class="gallery-slideshow">
+        <div class="slide">
+            <img src="animals/elephants.jpg" style="width: 100%">
+        </div>
+
+        <div class="slide">
+            <img src="animals/squirrel.jpg" style="width: 100%">
+        </div>
+
+        <div class="slide">
+            <img src="animals/zebra.jpg" style="width: 100%">
+        </div>
+
+        <div class="slide">
+            <img src="animals/lioness.jpg" style="width: 100%">
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
 
     <h1>The Plushie Zoo</h1>
@@ -21,4 +47,6 @@
             \___)
      ~~~~~~~~~~~~~~~~~~-->
 </body>
+
+<script src="index.js"></script>
 </html>
