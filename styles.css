@@ -14,24 +14,21 @@ body {
 }
 
 .profile-box {
-  background-color: #98cd98;
-  border-radius: 20px;
   display: flex;
+  width: 33%;
   padding: 20px;
   margin: 20px;
-  box-shadow: olive 5px 5px;
-  max-width: 500px;
 }
 
 .profile-description {
   padding: 20px;
   flex-wrap: wrap;
+  background: antiquewhite;
 }
 
 .profile-image {
-  width: 50%;
+  width: 100%;
   flex-shrink: inherit;
-  border-radius: 20px;
 }
 
 .nav-bar {
@@ -50,7 +47,7 @@ body {
   color: black;
 }
 .nav-bar a.active {
-  background-color: thistle;
+  background-color: #e341e3;
   color: white;
 }
 
