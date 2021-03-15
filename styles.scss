@@ -8,25 +8,29 @@ body {
 
 .page-content {
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: row;
+
+  @media (max-width: 800px) {
+    flex-direction: column;
+  }
 }
 
 .profile-box {
   display: flex;
-  width: 33%;
+  flex-flow: column;
   padding: 20px;
-  margin: 20px;
-}
+  //max-width: max(30%, screen);
+  //
+  .profile-description {
+    padding: 20px;
+    flex-wrap: wrap;
+    background: antiquewhite;
+  }
 
-.profile-description {
-  padding: 20px;
-  flex-wrap: wrap;
-  background: antiquewhite;
-}
-
-.profile-image {
-  width: 100%;
-  flex-shrink: inherit;
+  .profile-image {
+    width: 100%;
+    flex-shrink: inherit;
+  }
 }
 
 .nav-bar {
